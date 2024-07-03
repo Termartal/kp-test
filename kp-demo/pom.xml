@@ -4,6 +4,10 @@
     <groupId>com.ncvjeticanin</groupId>
     <artifactId>kp-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+         <properties>
+        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
